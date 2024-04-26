@@ -1,8 +1,20 @@
 name: MolexAI SDK
 version: 0.0.1
 description: MolexAI SDK is a software development kit for Molex AI products.
-token: 1234567890
 jobs:
+  update:
+    commands:
+      - cd scripts
+      - ./update.sh
+  retrieve:
+    commands:
+      - cd scripts
+      - python backup.py --source /data --destination /backup
+  restart:
+    commands:
+      - cd scripts
+      - ./restart.sh
+integrations:
   auro:
     commands:
       email:

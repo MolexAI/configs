@@ -1,7 +1,10 @@
 # MolexAI Configurations
 A guide on how to add configurations to your app with `.molexconfig`.
 
-### App intergration
+### Getting started
+
+
+### App intergrations
 To intergrate apps like **Micro, Loom, or Auro** type the following below in your yaml file located in your`.molexconfig` folder.
 
 ```yaml

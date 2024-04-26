@@ -1,5 +1,5 @@
 # MolexAI Configs
-How to use your .molexconfig file easy, simple guide.
+How to use your `.molexconfig` file easy, simple guide.
 
 ### App intergration
 To intergrate apps like **Micro, Loom, or Auro** type the following below in your `.molexconfig` file.

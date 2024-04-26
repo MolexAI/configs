@@ -1,4 +1,4 @@
-# MolexAI Configs
+# MolexAI Configurations
 How to use your `.molexconfig` file easy, simple guide.
 
 ### App intergration

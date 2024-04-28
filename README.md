@@ -1,6 +1,16 @@
 # MolexAI Configurations
 A guide on how to add configurations to your app with `.molexconfig`.
 
+# Getting started
+Here is the basic format for your yaml file located in your`.molexconfig` folder.
+<br>Don't forget, the name of the yaml file should be the name of your MolexAI app.</br>
+
+```yaml
+name: MolexAI Example App
+version: 0.0.1 # (DISCLAIMER) Version must be formatted in this order!
+description: This is an example app!
+```
+
 ## Intergrations guide
 To intergrate apps like **Micro, Loom, or Auro** type the following below in your yaml file located in your`.molexconfig` folder.
 

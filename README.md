@@ -59,18 +59,18 @@ jobs:
 ```yaml
 jobs:
   retrieve:
-      commands:
-        - cd scripts
-        - python backup.py
+    commands:
+      - cd scripts
+      - python backup.py
 ```
 
 ### Restart
 ```yaml
 jobs:
   restart:
-      commands:
-        - cd scripts
-        - ./restart.sh
+    commands:
+      - cd scripts
+      - ./restart.sh
 ```
 
 ### Compile

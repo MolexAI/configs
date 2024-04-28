@@ -14,6 +14,10 @@ jobs:
     commands:
       - cd scripts
       - ./restart.sh
+  compile:
+    commands:
+      - cd scripts
+      - python compile.py
 integrations:
   auro:
     commands:

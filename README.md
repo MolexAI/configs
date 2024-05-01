@@ -3,7 +3,7 @@ A guide on how to add configurations to your app with `.molexconfig`.
 
 # Getting started
 Here is the basic format for your yaml file located in your`.molexconfig` folder.
-<br>Don't forget, the name of the yaml file should be the name of your MolexAI app.</br>
+<br>Don't forget, the name of the yaml file should be `config.yaml`.</br>
 
 ```yaml
 name: MolexAI Example App
@@ -83,7 +83,7 @@ jobs:
       - ./restart.sh
 ```
 
-### Compile
+### Compile (Required to run the config)
 ```yaml
 jobs:
   compile:

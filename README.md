@@ -11,13 +11,13 @@ version: 0.0.1 # (DISCLAIMER) Version must be formatted in this order!
 description: This is an example app!
 ```
 
-## Intergrations guide
-To intergrate apps like **Micro, Loom, or Auro** type the following below in your yaml file located in your`.molexconfig` folder.
+## Integrations guide
+To integrate apps like **Micro, Loom, or Auro** type the following below in your yaml file located in your`.molexconfig` folder.
 
 ### Auro
 ```yaml
 integrations:
-  auro: # Auro intergration
+  auro: # Auro integration
     commands: 
       email: # Entering the email workspace
         - /send-email --address mom@gmail.com --subject "Hello mom" --body "How are you doing?"

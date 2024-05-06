@@ -2,7 +2,7 @@
 A guide on how to add configurations to your app with `.molexconfig`.
 
 # Getting started
-Here is the basic format for your JSON file located in your`.molexconfig` folder.
+Here is the basic format for your JSON file located in your `.molexconfig` folder.
 <br>Don't forget, the name of the JSON file should be `config.json`.</br>
 
 ```json
@@ -14,7 +14,7 @@ Here is the basic format for your JSON file located in your`.molexconfig` folder
 ```
 
 ## Integrations guide
-To integrate apps like **Micro, Loom, or Auro** type the following below in your JSON file located in your`.molexconfig` folder.
+To integrate apps like **Micro, Loom, or Auro** type the following below in your JSON file located in your `.molexconfig` folder.
 
 ### Auro
 ```json
@@ -75,7 +75,7 @@ To integrate apps like **Micro, Loom, or Auro** type the following below in your
 ```
 
 ## Jobs guide
-To add jobs like `update`, `restart`, `compile`, or `retrieve` follow the instructions below in your JSON file located in your`.molexconfig` folder.
+To add jobs like `update`, `restart`, `compile`, or `retrieve` follow the instructions below in your JSON file located in your `.molexconfig` folder.
 
 ### Update
 ```json

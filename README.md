@@ -1,5 +1,3 @@
-
-
 # MolexAI Configurations :gear:
 A guide on how to add configurations to your app with `.molexconfig`.
 
@@ -160,4 +158,3 @@ To add jobs like `update`, `restart`, `compile`, or `retrieve` follow the instru
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-```

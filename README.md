@@ -1,9 +1,11 @@
-# MolexAI Configurations
+
+
+# MolexAI Configurations :gear:
 A guide on how to add configurations to your app with `.molexconfig`.
 
-# Getting started
+## Getting started :rocket:
 Here is the basic format for your JSON file located in your `.molexconfig` folder.
-<br>Don't forget, the name of the JSON file should be `config.json`.</br>
+> **Note:** The name of the JSON file should be `config.json`.
 
 ```json
 {
@@ -13,10 +15,12 @@ Here is the basic format for your JSON file located in your `.molexconfig` folde
 }
 ```
 
-## Integrations guide
+## Integrations guide :link:
 To integrate apps like **Micro, Loom, or Auro** type the following below in your JSON file located in your `.molexconfig` folder.
 
-### Auro
+<details>
+<summary>Auro</summary>
+
 ```json
 {
   "integrations": {
@@ -31,7 +35,10 @@ To integrate apps like **Micro, Loom, or Auro** type the following below in your
   }
 }
 ```
-### Loom
+</details>
+
+<details>
+<summary>Loom</summary>
 
 ```json
 {
@@ -51,7 +58,10 @@ To integrate apps like **Micro, Loom, or Auro** type the following below in your
   }
 }
 ```
-### Micro
+</details>
+
+<details>
+<summary>Micro</summary>
 
 ```json
 {
@@ -73,11 +83,14 @@ To integrate apps like **Micro, Loom, or Auro** type the following below in your
   }
 }
 ```
+</details>
 
-## Jobs guide
+## Jobs guide :hammer_and_wrench:
 To add jobs like `update`, `restart`, `compile`, or `retrieve` follow the instructions below in your JSON file located in your `.molexconfig` folder.
 
-### Update
+<details>
+<summary>Update</summary>
+
 ```json
 {
   "jobs": {
@@ -90,8 +103,11 @@ To add jobs like `update`, `restart`, `compile`, or `retrieve` follow the instru
   }
 }
 ```
+</details>
 
-### Retrieve
+<details>
+<summary>Retrieve</summary>
+
 ```json
 {
   "jobs": {
@@ -104,8 +120,11 @@ To add jobs like `update`, `restart`, `compile`, or `retrieve` follow the instru
   }
 }
 ```
+</details>
 
-### Restart
+<details>
+<summary>Restart</summary>
+
 ```json
 {
   "jobs": {
@@ -118,8 +137,11 @@ To add jobs like `update`, `restart`, `compile`, or `retrieve` follow the instru
   }
 }
 ```
+</details>
 
-### Compile (Required to run the config)
+<details>
+<summary>Compile (Required to run the config)</summary>
+
 ```json
 {
   "jobs": {
@@ -131,4 +153,11 @@ To add jobs like `update`, `restart`, `compile`, or `retrieve` follow the instru
     }
   }
 }
+```
+</details>
+
+---
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 ```

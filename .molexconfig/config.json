@@ -2,6 +2,7 @@
   "name": "MolexAI SDK",
   "version": "0.0.1",
   "description": "MolexAI SDK is a software development kit for Molex AI products.",
+  "token": "molex_id_example",
   "jobs": {
     "update": {
       "commands": [

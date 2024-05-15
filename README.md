@@ -9,7 +9,8 @@ Here is the basic format for your JSON file located in your `.molexconfig` folde
 {
   "name": "MolexAI Example App",
   "version": "0.0.1",
-  "description": "This is an example app!"
+  "description": "This is an example app!",
+  "token": "molex_id_example"
 }
 ```
 

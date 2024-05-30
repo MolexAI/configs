@@ -4,6 +4,27 @@
   "description": "MolexAI SDK is a software development kit for Molex AI products.",
   "url": "https://github.com/example/example_app"
   "token": "molex_id_example",
+  "tasks": {
+    "postLaunch": {
+      "not finished."
+    },
+    
+    "postUpdate": {
+      "not finished."
+    },
+    
+    "postRestart": {
+      "not finished."
+    },
+    
+    "postBackup": {
+      "not finished."
+    },
+    
+    "postCompile": {
+      "not finished."
+    },
+  }
   "jobs": {
     "update": {
       "commands": [

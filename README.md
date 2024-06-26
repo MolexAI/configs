@@ -3,7 +3,7 @@ A guide on how to add configurations to your app with `.molexconfig`.
 
 ## Getting started :rocket:
 Here is the basic format for your JSON file located in your `.molexconfig` folder.
-> **Note:** The name of the JSON file should be `config.json`.
+> **Note:** The name of the JSON file should be `molexconfig.json`.
 
 ```json
 {
